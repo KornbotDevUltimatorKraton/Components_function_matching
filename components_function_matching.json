@@ -1,0 +1,49 @@
+{
+"Vision system":{
+    "Camera":"Camera_raw_",
+    "Camera streaming":"Multi_cache_server_"
+},
+"Navigation system":{
+"Outdoor navigation":{
+    "GPS":"GPS_data_",
+    "GPRS_module":"GPRS_module_",
+    "Fusion_sensor":{
+        "Visual odometry":"visual_odometry_",
+        "Lidar":"Liadar_data_",
+        "Radar":"Radar_data_"
+    }
+},
+"Indoor navigation":{
+    "CameraQR":"QR_code_scanner_pub_",
+    "Beacon":"Beacon_BLE_pub_",
+    "Wi-Fi":"Wifi_localization_pub_"
+  }
+},
+"Motor":{
+    "DC motor":"",
+    "Stepper motor":"",
+    "BLDC motor":""    
+},
+"AI":{
+    "Image processing":{
+        "Face recognition":"face_recog_",
+        "Pose detection":"Pose_detection_pub_",
+        "Object detection":"Object_recognition_pub_",
+        "Optical Characteristic Recognition":"OCR_code_scanner_pub_"
+
+    },
+    "Machine learning":{"":""}
+    ,
+    "Deeplearning":{"":""},
+    "Path planning":{"":""},
+    "Generative Chat LLMS":{"":""}    
+},
+"Software":{
+         "Data":"Data_",
+         "Data Center":"Data_center_",
+         "Data Storage":"Data_storage_",
+         "Data processing":"Data_processing_",
+         "Data Analytics":"Data_analytics_",
+         "Data Visualization":""
+}
+}
