@@ -20,23 +20,59 @@
   }
 },
 "Motor":{
-    "DC motor":"",
-    "Stepper motor":"",
-    "BLDC motor":""    
+    "DC motor":"DC_motor_control_",
+    "Stepper motor":"Stepper_motor_control_",
+
+    "BLDC motor": "BLDC_motor_control_", 
+    "Servo motor": "Servo_control_"       
 },
 "AI":{
     "Image processing":{
         "Face recognition": "face_recog_",
         "Pose detection": "Pose_detection_pub_",
-        "Object detection":"Object_recognition_pub_",
+        "Object detection": "Object_recognition_pub_",
         "Optical Characteristic Recognition": "OCR_code_scanner_pub_"
 
     },
-    "Machine learning":{"":""}
+    "Machine learning":{
+        "Supervised Learning":{"Classification_regression":{
+            "Linear_regression":"Linear_regression_",
+            "Logistic_regression":"Logistic_regression_",
+            "Random_forest":"Random_forest_",
+            "Network_neural":"Network_neural_"    
+           }
+        },
+        "Unsupervised Learning":{"Clustering_association":{
+            "K-means Clustering": "K_means_clustering_",
+            "Principal_components_analytic":"Pincipal_components_analytic_",
+            "t-Distributed Stochastic Neighbour Embedding": "t_distributed_stochastic_",
+            "Association Rule": "Association_rule_"   
+           }
+        }, 
+        "Semi-Supervised Learning":{"Classification_clustering": {
+               "uClassify": "uClassify_",
+               "GATE": "Gate_"
+
+            }
+         },
+        "Reinforcement Learning":{"Classification_control":{
+               "Q-Learning": "Q_learning_",
+               "Monte Carlo Tree Search": "Monte_carlo_tree_",
+               "Temporal Different (TD)": "Temporal_diff_",
+               "Asynchronous Actor-Critic Agents": "Asynchronous_"
+        }
+    }
+    }
     ,
-    "Deeplearning":{"":""},
-    "Path planning":{"":""},
-    "Generative Chat LLMS":{"":""}    
+    "Deeplearning":{
+        "":""
+    },
+    "Path planning":{
+        "":""
+    },
+    "Generative Chat LLMS":{
+        "":""
+    }    
 },
 "Software":{
          "Data": "Data_",
