@@ -43,13 +43,13 @@
            }
         },
         "Unsupervised Learning":{"Clustering_association":{
-            "K-means Clustering": "K_means_clustering_",
+            "K-means Clustering":"K_means_clustering_",
             "Principal_components_analytic":"Pincipal_components_analytic_",
-            "t-Distributed Stochastic Neighbour Embedding": "t_distributed_stochastic_",
-            "Association Rule": "Association_rule_"   
+            "t-Distributed Stochastic Neighbour Embedding":"t_distributed_stochastic_",
+            "Association Rule":"Association_rule_"   
            }
         }, 
-        "Semi-Supervised Learning":{"Classification_clustering": {
+        "Semi-Supervised Learning":{"Classification_clustering":{
                "uClassify": "uClassify_",
                "GATE": "Gate_"
 
@@ -65,13 +65,103 @@
     }
     ,
     "Deeplearning":{
-        "":""
+        "Neural Networks":{
+        "Feedforward Neuralnet": "Feed_forward_FNN_",
+        "Convolution Neuralnet": "Convolution_CNN_",
+        "Recurrent Neuralnet": "Recurrent_neuralnet_",
+        "Long Short-Term Memory": "Longshort_term_memory_",
+        "Gated recurrent unit": "Gated_recurrent_unit_"
+        },
+        "Deeplearning Architecture":{
+                "Autoencoders":"Autoencoders_",
+                "Generative Adversarial Neuralnets": "Generative_adversarial_nn_",
+                "Variational Autoencoders":"Variational_autoencoder_",
+                "Transformer Model": "Transformer_model_"
+        },
+        "Computer Vision":{
+            "Image Classification": "Image_classification_",
+            "Object detection": "Object_recognition_",
+            "Image Segmentation": "Image Segmentation", 
+            "Facial Recognition": "Facial_Recognition_", 
+            "Image Generation": "Image Generation"  
+        },
+        "Natural language processing":{
+            "Large Language Model": "LLMs_"      
+        },
+        "Reinforcement Learning":{
+            "Deep Q-Learning": "Deep_Q_learning",
+            "Policy Gradient Methods": "Policy_gradient_methods_",
+            "Actor-Critic Models": "Actor_critic_models_",
+            "Proximity policy optimization": "Proximity_policy_ops_",
+            "Deep Determistic Policy Gradients": "Deep_determistic_policy_gradients_"
+        },
+        "Transfer Learning":{
+            "Pre-trained Models": "Pretrained_model_",
+            "Fine-tuning": "Fine-tuning_", 
+            "Domain Adaptation": "Domain_Adaptation_",
+            "Feature Extraction": "Feature_extraction_"
+        },
+        "Unsupervised Learning":{
+            "K-means, Hierarchical Clustering": "Kmean_Hierarchical_Clustering_",
+            "Dimensionality Reduction": "Dimensionality_reduction_",
+            "Generative Models": "Generative_models_"
+        },
+        "Deep Learning for Time Series":{
+            "Time_series_prediction":"Time_series_prediction_",
+            "Sequence-to-Sequence Models":"Sequence_to_sequence_",
+            "Temporal Convolutional Networks": "Temporal_CNN_"
+        },
+        "Anomoly Detection":{
+            "One-Class SVM":"one-class_SVM_",
+            "Autoencoders-based Approaches": "Autoencoders_based_approaches_",
+            "Isolation Forests": "Isolation_forests_" 
+        },
+        "Explainability and Interpretability":{
+            "Explainable-AI (XAI)":"Explainable_AI_",
+            "Feature Importance": "Feature_Importance_", 
+            "Attention Mechanics": "Attention_Mechanics_" 
+        },
+        "Deep Learning Frameworks":{
+            "TensorFlow": "TensorFlow_",
+            "PyTorch":"PyTorch_", 
+            "Keras": "Keras_",
+            "MXNet": "MXNet_",
+            "Caffe": "Caffe_"    
+        },
+        "Adversarial Machine Learning":{
+            "Adversarial Attacks": "Adversarial_attacks_",
+            "Generative Adversarial Networks": "Generative_adversarialN_",
+            "Adversarial training": "Adversarial_training_"
+        },
+        "Meta-Learning":{
+            "Model-Agnostic Meta-Learning": "Model_agnostic_",
+            "Reptile Algorithm": "Reptile_algorithm_",
+            "Few-Shot Learning": "Few_shot_learning_"
+        },
+        "Ethical and Responsible AI":{
+           "Blas in Deep Learning Models": "Blass_deep_learning_",
+           "Fairness and Accountability": "Fairness_accountability_",
+           "Ethical Considerations in AI Development": "Ethical_consider_"
+        }
     },
     "Path planning":{
-        "":""
+         "Search-Based_Algorithms": "Search_Based_Algorithms_",
+         "Heuristic-Based_Algorithms": "Heuristic_Based_Algorithms_",
+         "Sampling-Based_Algorithms": "Sampling_Based_Algorithms_",
+         "Optimization-Based_Algorithms": "Optimization_Based_Algorithms_",
+         "Learning-Based_Approaches": "Learning_Based_Approaches_",
+         "Hybrid_Approaches": "Hybrid_Approaches_",
+         "Dynamic_Path_Planning": "Dynamic_Path_Planning_",
+         "Multi-Agent_Path_Planning": "Multi-Agent_Path_Planning_",
+         "Real-Time_Path_Planning": "Real-Time_Path_Planning_",
+         "Humanoid_Robot_Path_Planning": "Humanoid_Robot_Path_Planning_",
+         "Path_Smoothing_and_Optimization": "Path_Smoothing_and_Optimization_",
+         "Path_Planning_in_3D_Environments": "Path_Planning_in_3D_Environments_",
+         "Path_Planning_for_UAVs_and_Drones": "Path_Planning_for_UAVs_and_Drones_",
+         "Collision_Avoidance": "Collision_Avoidance_"
     },
     "Generative Chat LLMS":{
-        "":""
+        "Langchain":"Langchain_llm_"
     }    
 },
 "Software":{
