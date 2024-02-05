@@ -89,7 +89,7 @@
             "Large Language Model": "LLMs_"      
         },
         "Reinforcement Learning":{
-            "Deep Q-Learning": "Deep_Q_learning",
+            "Deep Q-Learning": "Deep_Q_learning_",
             "Policy Gradient Methods": "Policy_gradient_methods_",
             "Actor-Critic Models": "Actor_critic_models_",
             "Proximity policy optimization": "Proximity_policy_ops_",
